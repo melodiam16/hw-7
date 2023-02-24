@@ -83,5 +83,14 @@
 <symbol id="massage" xmlns="http://www.w3.org/2000/svg" width="16" height="12" >
   <path  d="M14 0H2C1.175 0 .507.675.507 1.5l-.007 9c0 .825.675 1.5 1.5 1.5h12c.825 0 1.5-.675 1.5-1.5v-9C15.5.675 14.825 0 14 0Zm-.3 3.188L8.398 6.502a.759.759 0 0 1-.795 0L2.3 3.187a.637.637 0 1 1 .675-1.08L8 5.25l5.025-3.143a.637.637 0 1 1 .675 1.08Z"/>
 </symbol>
+
+<symbol id="menu" xmlns="http://www.w3.org/2000/svg" width="32" height="22" >
+    <path stroke="#2E2F42"  stroke-linejoin="round" stroke-width="3" d="M1.348 20.043h29.538M1.348 10.735h29.538M1.348 1.428h29.538"/>
+ 
+  <defs>
+      <path  d="M0 0h32v22H0z"/>
+  </defs>
+</symbol>
+
   </defs>
 </svg>
