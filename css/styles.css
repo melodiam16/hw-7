@@ -77,9 +77,6 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
 }
 
 @media screen and (min-width: 428px) {
@@ -537,16 +534,6 @@ body {
   margin-bottom: 0;
 }
 
-/* .subtitle-content {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(24 / 16);
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-} */
 .subtitle-content {
   font-style: normal;
   font-weight: 700;
@@ -843,12 +830,6 @@ body {
     display: flex;
     justify-content: center;
   }
-
-  /* .footer-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } */
 
   .footer-left-part {
     margin-bottom: 72px;
