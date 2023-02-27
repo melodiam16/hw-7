@@ -82,7 +82,7 @@ body {
   outline-offset: -2px; */
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
   .container {
     width: 426px;
     margin-left: auto;
@@ -92,7 +92,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 766px;
+    width: 768px;
   }
 }
 
@@ -405,17 +405,18 @@ body {
   .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
 .hero {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url('/images/hero-section/dark-bg-mobile-1x.png');
+    url('../images/hero-section/dark-bg-tel-1x.jpg');
   background-size: cover;
   background-color: var(--black-bg-cl);
-  padding: 188px 0;
-  max-width: 1440px;
-  height: 600px;
+  padding: 112px 0;
+  max-width: 428px;
+  height: 432px;
   margin: 0 auto;
   background-repeat: no-repeat;
 }
@@ -424,22 +425,23 @@ body {
   .hero {
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero-section/dark-bg-mobile-2x.png');
+      url('../images/hero-section/dark-bg-tel-2x.jpg');
   }
 }
 
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 768px) {
   .hero {
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero-section/dark-bg-tab-1x.png');
+      url('../images/hero-section/dark-bg-tab-1x.jpg');
+    max-width: 768px;
   }
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
       background-size: cover;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url('/images/hero-section/dark-bg-tab-2x.png');
+        url('../images/hero-section/dark-bg-tab-2x.jpg');
     }
   }
 }
@@ -448,14 +450,15 @@ body {
   .hero {
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('/images/hero-section/dark-bg-desk-1x.png');
+      url('../images/hero-section/dark-bg-deskt-1x.jpg');
+    max-width: 1440px;
   }
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
       background-size: cover;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url('/images/hero-section/dark-bg-desk-2x.png');
+        url('../images/hero-section/dark-bg-deskt-2x.jpg');
     }
   }
 }
@@ -527,6 +530,11 @@ body {
 
 .future-list {
   max-width: 396px;
+  margin-bottom: 72px;
+}
+
+.future-list:last-child {
+  margin-bottom: 0;
 }
 
 /* .subtitle-content {
@@ -555,7 +563,7 @@ body {
   padding: 120px 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1157px) {
   .section {
     padding: 96px 0;
   }
@@ -564,7 +572,6 @@ body {
 .text-content {
   line-height: calc(24 / 16);
   color: var(--slate-txt-cl);
-  margin-bottom: 72px;
 }
 
 .last-txt-cont {
@@ -588,13 +595,12 @@ body {
   .subtitle-content {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: calc(24 / 20);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    text-align: left;
-    color: var(--black-txt-cl);
+    text-transform: capitalize;
+    color: #2e2f42;
   }
   .text-content {
     font-family: 'Roboto';
@@ -766,7 +772,7 @@ body {
 }
 
 .customers-section {
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 
 .customers-item {
@@ -785,7 +791,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .customers-section {
-    padding: 96px auto;
+    padding: 96px 0;
   }
   .customers-item {
     display: flex;
@@ -985,7 +991,6 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer {
-    padding-left: 108px;
     padding-top: 96px;
     padding-bottom: 96px;
     background-color: var(--black-bg-cl);
@@ -1033,6 +1038,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
+    max-width: 550px;
   }
 
   .footer-social-elements {
@@ -1120,6 +1126,8 @@ body {
     position: absolute;
     left: 117px;
     top: 8px;
+    width: 24px;
+    height: 24px;
   }
 
   .button-txt::after {
@@ -1265,6 +1273,8 @@ body {
     position: absolute;
     left: 117px;
     top: 8px;
+    width: 24px;
+    height: 24px;
   }
 
   .button-txt::after {
